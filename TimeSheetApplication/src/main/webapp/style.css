@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+}
+
+th, td {
+
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: coral;}
+
+h1{
+	 font-family: "Sofia", sans-serif;
+	 text-shadow: 3px 3px 3px #ababab;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+
+#signOut:hover{
+	background-color: red;
+	color: white;
+}
+
+input[type=submit], input[type=reset] {
+  background-color: white;
+  border: 1px solid red;
+  color: black;
+  font-size: 15px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
